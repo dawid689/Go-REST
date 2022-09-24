@@ -1,0 +1,45 @@
+/* oddzielenie logo (po lewej stronie ekranu) od przycisków nawigacji (po prawej stronie ekranu) */
+.nav {
+  /* Flexbox */
+  display: flex;
+  /* dane wyświetlane w rzędzie */
+  flex-direction: row;
+  /* oddzielenie elementów do krawędzi lewej i prawej (przerwa w środku) */
+  justify-content: space-between;
+  /* zajęta szerokość ekranu */
+  width: 100%;
+  background-color: lightcoral;
+}
+
+.logo {
+  margin: 27px 20px 20px 20px;
+  font-size: large;
+}
+
+.pages {
+  margin: 10px;
+}
+
+.pages ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.pages li {
+  margin: 0 10px;
+  padding: 0 10px;
+  border: 1px black solid;
+  font-size: large;
+  background-color: white;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+.pages li:hover {
+  background-color: rgb(235, 233, 164);
+}

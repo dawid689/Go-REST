@@ -1,0 +1,8 @@
+.card {
+  /* kolor tła */
+  background-color: rgb(250, 248, 248);
+  /*zaokrąglenie rogów  */
+  border-radius: 10%;
+  /* ustawienie cienia */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}

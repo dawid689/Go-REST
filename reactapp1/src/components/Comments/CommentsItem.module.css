@@ -1,0 +1,17 @@
+.commentItem {
+  margin: 1rem 0;
+  background-color: rgb(236, 142, 142);
+}
+
+.content {
+  text-align: center;
+}
+
+.content p {
+  font-size: 10px;
+}
+
+.content h2 {
+  font-size: 1.25rem;
+  color: #2c292b;
+}
